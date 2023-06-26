@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Box, Text } from '@chakra-ui/react'
-import { Navbar } from './components/navbar'
+import { Navbar } from '../components/navbar'
 
 const images = ['david.png', 'pixelated.png']
 
