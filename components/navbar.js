@@ -22,7 +22,7 @@ export const Navbar = () => {
       <Flex color='white'>
         <Center w='110px' h='70px'>
           <Text onClick={() => router.push('/')} onPointerOver={() => setHover(true)} onPointerOut={() => setHover(false)} color={hover ? 'black' : 'gray'} fontWeight='bold'>
-            rooz<sup>TM</sup>
+          روزبه<sup>TM</sup>
           </Text>
         </Center>
         <Spacer/>
