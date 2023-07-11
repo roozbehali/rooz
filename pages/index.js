@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Box, Text } from '@chakra-ui/react'
 import { Navbar } from '@/components/navbar'
+import { Footer } from '@/components/footer'
 
 const images = ['david.png', 'pixelated.png']
 
@@ -22,10 +23,11 @@ export default function Home() {
   return (
     <center>
       <Navbar></Navbar>
-      <Box w='600px' h='350' m={50}>
+      <Box w='600px' h='350' marginTop={50} marginBottom={120}>
         <img src={images[currentIndex]}/>
+        <Text fontSize='5xl' as='s' fontWeight='bold'>Roozbeh Ali</Text>
       </Box>
-      <Text fontSize='5xl' as='s' fontWeight='bold'>Roozbeh Ali</Text>
+      <Footer></Footer>
     </center>
   )
 }

@@ -1,15 +1,16 @@
 import { Center } from '@chakra-ui/react'
 
 import { Navbar } from '@/components/navbar'
+import { Footer } from '@/components/footer'
 
 
 export default function Home() {
   return (
-    <div>
+    <center>
       <Navbar></Navbar>
-      <Center m='5'>
-        <embed src="RA Resume.pdf" width="850px" height="600px" />
+      <Center marginTop={25}>
+        <embed src="RA Resume.pdf" width="450px" height="625px" />
       </Center>
-    </div>
+    </center>
   )
 }
