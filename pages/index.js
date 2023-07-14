@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <center>
       <Navbar></Navbar>
-      <Box w='600px' h='350' marginTop={50} marginBottom={120}>
+      <Box w='600px' h='350' marginTop={50} marginBottom={125}>
         <img src={images[currentIndex]}/>
         <Text fontSize='5xl' as='s' fontWeight='bold'>Roozbeh Ali</Text>
       </Box>

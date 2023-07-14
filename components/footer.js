@@ -2,7 +2,7 @@ import { ButtonGroup, Container, IconButton, Stack, Center } from '@chakra-ui/re
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
 export const Footer = () => (
-  <Container as="footer" role="contentinfo" paddingTop={100}>
+  <Container as="footer" role="contentinfo" paddingTop={100} paddingBottom={1}>
     <Center spacing={{ base: '4', md: '5' }}>
       <Stack justify="space-between" direction="row" align="center">
         <ButtonGroup variant="tertiary">
