@@ -26,7 +26,7 @@ export default function Home() {
       <Center>
         <Box w={[600]} h={[325, 350]} marginTop={[100, 50]} marginBottom={[75, 125]}>
           <img src={images[currentIndex]}/>
-          <Text fontSize='5xl' as='s' fontWeight='bold'>Roozbeh Ali</Text>
+          <Text fontSize='5xl' as='p' fontWeight='bold'>Roozbeh Ali</Text>
         </Box>
       </Center>
       <Footer></Footer>
