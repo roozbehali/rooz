@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <center>
       <Navbar></Navbar>
-      <Center marginTop={50}>
-        <embed src="RA Resume.pdf" width="450px" height="625px" />
+      <Center marginTop={75}>
+        <embed src="RA Resume.pdf" width={[450]} height={[625]} />
       </Center>
       <Footer></Footer>
     </center>

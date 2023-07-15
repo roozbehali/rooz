@@ -1,7 +1,4 @@
-import { useRouter } from 'next/router'
-import { useState, useEffect } from 'react'
 import { Text, Grid, Center, Stack, Heading, Link } from '@chakra-ui/react'
-import { BiLink } from 'react-icons/bi'
 
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
@@ -11,7 +8,12 @@ export default function Home() {
   return (
     <center>
       <Navbar></Navbar>
-      <Grid marginTop={100} h='425px' w='1200px' templateRows='repeat(2, 1fr)' templateColumns='repeat(3, 1fr)' gap={10}>
+      <Grid marginTop={100} 
+      h={[600, 425]} w={[400, 1200]} 
+      // templateRows={['repeat(4, 1fr)', 'repeat(3, 1fr)', 'repeat(2, 1fr)']}
+      templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
+      gap={[10]}
+      gridAutoFlow="dense">
 
         <Center rowSpan={1} colSpan={1} gap={5}>
           <img width='100px' height='100px' src='frc.png'/>

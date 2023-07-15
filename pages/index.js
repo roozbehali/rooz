@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Box, Text } from '@chakra-ui/react'
+import { Box, Text, Center } from '@chakra-ui/react'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 
@@ -23,10 +23,12 @@ export default function Home() {
   return (
     <center>
       <Navbar></Navbar>
-      <Box w='600px' h='350' marginTop={50} marginBottom={125}>
-        <img src={images[currentIndex]}/>
-        <Text fontSize='5xl' as='s' fontWeight='bold'>Roozbeh Ali</Text>
-      </Box>
+      <Center>
+        <Box w={[600]} h={[325, 350]} marginTop={[100, 50]} marginBottom={[75, 125]}>
+          <img src={images[currentIndex]}/>
+          <Text fontSize='5xl' as='s' fontWeight='bold'>Roozbeh Ali</Text>
+        </Box>
+      </Center>
       <Footer></Footer>
     </center>
   )
