@@ -7,7 +7,7 @@ import { Footer } from '@/components/footer'
 export default function Home() {
   return (
     <center>
-      <Navbar></Navbar>
+      <Navbar/>
       <Grid marginTop={100} 
       h={[600, 425]} w={[400, 1200]} 
       // templateRows={['repeat(4, 1fr)', 'repeat(3, 1fr)', 'repeat(2, 1fr)']}
@@ -51,9 +51,7 @@ export default function Home() {
         </Center>
 
       </Grid>
-      <Footer></Footer>
+      <Footer/>
     </center>
   )
 }
-
-// https://drive.google.com/file/d/1IRmqeznFuIm5pbZcO5da306mM6C2B9rv/view

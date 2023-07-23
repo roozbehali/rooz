@@ -7,11 +7,11 @@ import { Footer } from '@/components/footer'
 export default function Home() {
   return (
     <center>
-      <Navbar></Navbar>
+      <Navbar/>
       <Center marginTop={75}>
         <embed src="RA Resume.pdf" width={[450]} height={[625]} />
       </Center>
-      <Footer></Footer>
+      <Footer/>
     </center>
   )
 }
