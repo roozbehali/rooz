@@ -9,7 +9,7 @@ export default function Home() {
     <center>
       <Navbar/>
       <Grid marginTop={100} 
-      h={[600, 425]} w={[400, 1200]} 
+      h={[600, 420]} w={[400, 1200]} 
       // templateRows={['repeat(4, 1fr)', 'repeat(3, 1fr)', 'repeat(2, 1fr)']}
       templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
       gap={[10]}

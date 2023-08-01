@@ -24,7 +24,7 @@ export default function Home() {
     <center>
       <Navbar/>
       <Center>
-        <Box w={[600]} h={[325, 350]} marginTop={[100, 50]} marginBottom={[75, 125]}>
+        <Box w={[600]} h={[325, 350]} marginTop={[100, 50]} marginBottom={[75, 120]}>
           <img src={images[currentIndex]}/>
           <Text fontSize='5xl' as='p' fontWeight='bold'>Roozbeh Ali</Text>
         </Box>

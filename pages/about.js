@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <center>
       <Navbar/>
-      <Flex marginTop={[150, 200]} marginBottom={[94, 149]} w={[375, 400, 500, 600, 700]} bgColor='ghostwhite' borderRadius={10}>
+      <Flex marginTop={[150, 200]} marginBottom={[94, 144]} w={[375, 400, 500, 600, 700]} bgColor='ghostwhite' borderRadius={10}>
         <Text m={[5, 10]} align='left'>Hi, I'm Roozbeh. I'm enrolled in Computer Engineering
           at the University of Waterloo, in my 1A term. Before that,
           I was a high schooler in the IB DP at Glenforest SS. I'm always
