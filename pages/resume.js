@@ -9,7 +9,7 @@ export default function Home() {
     <center>
       <Navbar/>
       <Center marginTop={75}>
-        <embed src="RA Resume.pdf" width={[450]} height={[625]} />
+        <embed src="Roozbeh's Resume.pdf" width={[450]} height={[625]} />
       </Center>
       <Footer/>
     </center>
