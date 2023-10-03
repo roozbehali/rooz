@@ -3,7 +3,7 @@ import { Box, Text, Center } from '@chakra-ui/react'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 
-const images = ['david.png', 'pixelated.png']
+const images = ['david_vector.png', 'pixelated.png']
 
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0)
