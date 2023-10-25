@@ -16,7 +16,7 @@ export const Navbar = () => {
     <div>
       <Head>
         <title>Roozbeh Ali</title>
-        <link rel="shortcut icon" href="/nazar.ico"></link>
+        <link rel="shortcut icon" href="/persian.ico"></link>
       </Head>
 
       <Flex color='white'>
