@@ -13,7 +13,7 @@ export default function Home() {
       <center>
         <Navbar/>
         <Grid marginTop={100} 
-        h={[600, 420]} w={[400, 1200]} 
+        h={[600, 420]} w={[400, 1300]} 
         // templateRows={['repeat(4, 1fr)', 'repeat(3, 1fr)', 'repeat(2, 1fr)']}
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
         gap={[10]}
@@ -21,7 +21,7 @@ export default function Home() {
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='frc.png'/>
             <Stack spacing={1} direction='column' align='start'>
-              <Tooltip label='Programming Captain / Driver' placement='top-start' bg='whiteAlpha' textColor='black'>
+              <Tooltip label='Programming Captain / Driver' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
                 <Heading size='md'>FRC 6070</Heading>
               </Tooltip>
               <Text>
@@ -34,7 +34,7 @@ export default function Home() {
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='beavr.jpg'/>
             <Stack spacing={1} direction='column' align='start'>
-            <Tooltip label='Frontend developer' placement='top-start' bg='whiteAlpha' textColor='black'>
+            <Tooltip label='Frontend developer' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
               <Heading size='md'>Beavr Labs</Heading>
             </Tooltip>
               <Link as="a" target="_blank" href="https://1bitcoin.ca" aria-label="Beavr" color='gray.500'>1Bitcoin</Link>
@@ -44,27 +44,37 @@ export default function Home() {
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='uwaft.png'/>
             <Stack spacing={1} direction='column' align='start'>
-            <Tooltip label='Firmware developer' placement='top-start' bg='whiteAlpha' textColor='black'>
+            <Tooltip label='Firmware developer' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
               <Heading size='md'>UWAFT</Heading>
             </Tooltip>
               <Link as="a" target="_blank" href="https://www.uwaft.ca/" aria-label="uwaft" color='gray.500'>Cadillac LYRIQ</Link>
+            </Stack>
+          </Center>
+          
+          <Center rowSpan={1} colSpan={1} gap={5}>
+            <img width='100px' height='100px' src='wato.png'/>
+            <Stack spacing={1} direction='column' align='start'>
+            <Tooltip label='Autonomous software developer' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
+              <Heading size='md'>WATonomous</Heading>
+            </Tooltip>
+              <Link as="a" target="_blank" href="https://www.watonomous.ca/" aria-label="wato" color='gray.500'>Autonomous Chevy Bolt</Link>
             </Stack>
           </Center>
 
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='markov.png'/>
             <Stack spacing={1} direction='column' align='start'>
-            <Tooltip label='Side project' placement='top-start' bg='whiteAlpha' textColor='black'>
+            <Tooltip label='Side project' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
               <Heading size='md'>IB Math IA</Heading>
             </Tooltip>
-              <Link as="a" target="_blank" href="https://drive.google.com/file/d/1IRmqeznFuIm5pbZcO5da306mM6C2B9rv/view" aria-label="IB" color='gray.500'>Monopoly with Markov Chains</Link>
+              <Link as="a" target="_blank" href="https://drive.google.com/file/d/1IRmqeznFuIm5pbZcO5da306mM6C2B9rv/view" aria-label="IB" color='gray.500'>Modelling Monopoly</Link>
             </Stack>
           </Center>
 
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='evlav.png'/>
             <Stack spacing={1} direction='column' align='start'>
-            <Tooltip label='Hackathon win' placement='top-start' bg='whiteAlpha' textColor='black'>
+            <Tooltip label='Hackathon win' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
               <Heading size='md'>Hack3</Heading>
             </Tooltip>
               <Link as="a" target="_blank" href="https://devpost.com/software/evlav-detection" aria-label="Evlav" color='gray.500'>Evlav Detection</Link>
