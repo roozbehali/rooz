@@ -29,7 +29,7 @@ export const Navbar = () => {
         <Flex minWidth='max-content' alignItems='center' gap='2' margin='5'>
           <ButtonGroup gap='2'>
             <Button onClick={() => router.push('/about')} colorScheme='blackAlpha' size='sm' variant='ghost'>About</Button>
-            <Button onClick={() => router.push('/projects')} colorScheme='blackAlpha' size='sm' variant='ghost'>Experience</Button>
+            <Button onClick={() => router.push('/experience')} colorScheme='blackAlpha' size='sm' variant='ghost'>Experience</Button>
             <Button onClick={() => router.push('/resume')} colorScheme='blackAlpha' size='sm' variant='ghost'>Resume</Button>
           </ButtonGroup>
         </Flex>

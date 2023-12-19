@@ -10,14 +10,26 @@ export default function Home() {
     <motion.div 
     initial={{ opacity: 0 }}
     animate={{ opacity: 100 }}>
+      <Navbar/>
+
+      <Heading mt={20} ml={[110, 175]}>Organizations</Heading>
       <center>
-        <Navbar/>
-        <Grid marginTop={100} 
-        h={[600, 420]} w={[400, 1300]} 
-        // templateRows={['repeat(4, 1fr)', 'repeat(3, 1fr)', 'repeat(2, 1fr)']}
+        <Grid
+        h={[600, 175]} w={[400, 1350]} 
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
         gap={[10]}
         gridAutoFlow="dense">
+
+          <Center rowSpan={1} colSpan={1} gap={5}>
+            <img width='100px' height='100px' src='uwaft.png'/>
+            <Stack spacing={1} direction='column' align='start'>
+            <Tooltip label='Firmware developer' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
+              <Heading size='md'>UWAFT</Heading>
+            </Tooltip>
+              <Link as="a" target="_blank" href="https://www.uwaft.ca/" aria-label="uwaft" color='gray.500'>Cadillac LYRIQ</Link>
+            </Stack>
+          </Center>
+
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='frc.png'/>
             <Stack spacing={1} direction='column' align='start'>
@@ -41,25 +53,16 @@ export default function Home() {
             </Stack>
           </Center>
 
-          <Center rowSpan={1} colSpan={1} gap={5}>
-            <img width='100px' height='100px' src='uwaft.png'/>
-            <Stack spacing={1} direction='column' align='start'>
-            <Tooltip label='Firmware developer' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
-              <Heading size='md'>UWAFT</Heading>
-            </Tooltip>
-              <Link as="a" target="_blank" href="https://www.uwaft.ca/" aria-label="uwaft" color='gray.500'>Cadillac LYRIQ</Link>
-            </Stack>
-          </Center>
-          
-          <Center rowSpan={1} colSpan={1} gap={5}>
-            <img width='100px' height='100px' src='wato.png'/>
-            <Stack spacing={1} direction='column' align='start'>
-            <Tooltip label='Autonomous software developer' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
-              <Heading size='md'>WATonomous</Heading>
-            </Tooltip>
-              <Link as="a" target="_blank" href="https://www.watonomous.ca/" aria-label="wato" color='gray.500'>Autonomous Chevy Bolt</Link>
-            </Stack>
-          </Center>
+        </Grid>
+      </center>
+
+      <Heading mt={[20]} ml={[150, 175]}>Projects</Heading>
+      <center>
+        <Grid
+        h={[400, 175]} w={[400, 1300]} 
+        templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
+        gap={[10]}
+        gridAutoFlow="dense">
 
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='markov.png'/>
@@ -79,10 +82,11 @@ export default function Home() {
             </Tooltip>
               <Link as="a" target="_blank" href="https://devpost.com/software/evlav-detection" aria-label="Evlav" color='gray.500'>Evlav Detection</Link>
             </Stack>
+
           </Center>
         </Grid>
-        <Footer/>
       </center>
+      <Footer/>
     </motion.div>
   )
 }
