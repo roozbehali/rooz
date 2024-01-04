@@ -70,7 +70,7 @@ export default function Home() {
             <Tooltip label='Side project' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
               <Heading size='md'>IB Math IA</Heading>
             </Tooltip>
-              <Link as="a" target="_blank" href="https://drive.google.com/file/d/1IRmqeznFuIm5pbZcO5da306mM6C2B9rv/view" aria-label="IB" color='gray.500'>Modelling Monopoly</Link>
+              <Link as="a" target="_blank" href="https://github.com/roozbehali/markovian_monopoly" aria-label="IB" color='gray.500'>Modelling Monopoly</Link>
             </Stack>
           </Center>
 
