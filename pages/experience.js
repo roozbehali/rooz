@@ -12,13 +12,15 @@ export default function Home() {
     animate={{ opacity: 100 }}>
       <Navbar/>
 
-      <Heading mt={20} ml={[110, 175]}>Organizations</Heading>
+      <Heading mt={20} ml={[150, 175]}>Organizations</Heading>
       <center>
         <Grid
-        h={[600, 175]} w={[400, 1350]} 
+        ml={[115, 145]}
+        mb={[10]}
+        h={[400, 175]} w={[400, 1300]} 
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
         gap={[10]}
-        gridAutoFlow="dense">
+        justifyItems='flex-start'>
 
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='uwaft.png'/>
@@ -27,6 +29,16 @@ export default function Home() {
               <Heading size='md'>UWAFT</Heading>
             </Tooltip>
               <Link as="a" target="_blank" href="https://www.uwaft.ca/" aria-label="uwaft" color='gray.500'>Cadillac LYRIQ</Link>
+            </Stack>
+          </Center>
+
+          <Center rowSpan={1} colSpan={1} gap={5}>
+            <img width='100px' height='100px' src='beavr.jpg'/>
+            <Stack spacing={1} direction='column' align='start'>
+            <Tooltip label='Frontend developer' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
+              <Heading size='md'>Beavr Labs</Heading>
+            </Tooltip>
+              <Link as="a" target="_blank" href="https://1bitcoin.ca" aria-label="Beavr" color='gray.500'>1Bitcoin</Link>
             </Stack>
           </Center>
 
@@ -43,36 +55,18 @@ export default function Home() {
             </Stack>
           </Center>
 
-          <Center rowSpan={1} colSpan={1} gap={5}>
-            <img width='100px' height='100px' src='beavr.jpg'/>
-            <Stack spacing={1} direction='column' align='start'>
-            <Tooltip label='Frontend developer' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
-              <Heading size='md'>Beavr Labs</Heading>
-            </Tooltip>
-              <Link as="a" target="_blank" href="https://1bitcoin.ca" aria-label="Beavr" color='gray.500'>1Bitcoin</Link>
-            </Stack>
-          </Center>
-
         </Grid>
       </center>
 
-      <Heading mt={[20]} ml={[150, 175]}>Projects</Heading>
+      <Heading mt={[20]} ml={[150, 175]} mb={[10]}>Projects</Heading>
       <center>
         <Grid
+        ml={[115, 125]}
+        mb={[10]}
         h={[400, 175]} w={[400, 1300]} 
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
         gap={[10]}
-        gridAutoFlow="dense">
-
-          <Center rowSpan={1} colSpan={1} gap={5}>
-            <img width='100px' height='100px' src='markov.png'/>
-            <Stack spacing={1} direction='column' align='start'>
-            <Tooltip label='Side project' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
-              <Heading size='md'>IB Math IA</Heading>
-            </Tooltip>
-              <Link as="a" target="_blank" href="https://github.com/roozbehali/markovian_monopoly" aria-label="IB" color='gray.500'>Modelling Monopoly</Link>
-            </Stack>
-          </Center>
+        justifyItems='flex-start'>
 
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='evlav.png'/>
@@ -82,8 +76,38 @@ export default function Home() {
             </Tooltip>
               <Link as="a" target="_blank" href="https://devpost.com/software/evlav-detection" aria-label="Evlav" color='gray.500'>Evlav Detection</Link>
             </Stack>
-
           </Center>
+
+          <Center rowSpan={1} colSpan={1} gap={5}>
+            <img width='100px' height='100px' src='markov.png'/>
+            <Stack spacing={1} direction='column' align='start'>
+            <Tooltip label='Side project' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
+              <Heading size='md'>IB Math IA</Heading>
+            </Tooltip>
+              <Link as="a" target="_blank" href="https://github.com/roozbehali/markovian_monopoly" aria-label="IB" color='gray.500'>Monopoly w/ Markov Chains</Link>
+            </Stack>
+          </Center>
+
+          <Center rowSpan={1} colSpan={1} gap={5}>
+            <img width='100px' height='100px' src='doppler2.png'/>
+            <Stack spacing={1} direction='column' align='start'>
+            <Tooltip label='Side project' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
+              <Heading size='md'>IB Physics IA</Heading>
+            </Tooltip>
+              <Link as="a" target="_blank" href="https://drive.google.com/file/d/13cESO2HqwMEjIrbsgM08XGWPXSZSKjVU/view?usp=sharing" aria-label="Phys" color='gray.500'>The Doppler Effect</Link>
+            </Stack>
+          </Center>
+
+          <Center rowSpan={1} colSpan={1} gap={5}>
+            <img width='100px' height='100px' src='information.png'/>
+            <Stack spacing={1} direction='column' align='start'>
+            <Tooltip label='Hackathon win' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
+              <Heading size='md'>IB Math EE</Heading>
+            </Tooltip>
+              <Link as="a" target="_blank" href="https://drive.google.com/file/d/1Vfm6vD8n0coqw5QYu1vTFIjh9dL7ofWN/view?usp=sharing" aria-label="information" color='gray.500'>Information Theory in DNN solutions</Link>
+            </Stack>
+          </Center>
+
         </Grid>
       </center>
       <Footer/>
