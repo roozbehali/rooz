@@ -101,7 +101,7 @@ export default function Home() {
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='information.png'/>
             <Stack spacing={1} direction='column' align='start'>
-            <Tooltip label='Hackathon win' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
+            <Tooltip label='Research paper' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
               <Heading size='md'>IB Math EE</Heading>
             </Tooltip>
               <Link as="a" target="_blank" href="https://drive.google.com/file/d/1Vfm6vD8n0coqw5QYu1vTFIjh9dL7ofWN/view?usp=sharing" aria-label="information" color='gray.500'>Information Theory in DNN solutions</Link>
