@@ -81,7 +81,7 @@ export default function Home() {
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='evlav.png'/>
             <Stack spacing={1} direction='column' align='start'>
-            <Tooltip label='Hackathon win' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
+            <Tooltip label='Hackathon project' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
               <Heading size='md'>Hack3</Heading>
             </Tooltip>
               <Link as="a" target="_blank" href="https://devpost.com/software/evlav-detection" aria-label="Evlav" color='gray.500'>Evlav Detection</Link>
