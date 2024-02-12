@@ -12,10 +12,10 @@ export default function Home() {
     animate={{ opacity: 100 }}>
       <Navbar/>
 
-      <Heading mt={20} ml={[105, 175]} mb={10}>Organizations</Heading>
+      <Heading mt={20} ml={[115, 175]} mb={10}>Organizations</Heading>
       <center>
         <Grid
-        ml={[20, 125]}
+        ml={[25, 125]}
         mb={[10]}
         h={[400, 175]} w={[300, 1300]} 
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
@@ -68,12 +68,12 @@ export default function Home() {
         </Grid>
       </center>
 
-      <Heading mt={[20, 40]} ml={[145, 175]} mb={[10]}>Projects</Heading>
+      <Heading mt={[20, 40]} ml={[125, 175]} mb={[10]}>Projects</Heading>
       <center>
         <Grid
-        ml={[20, 125]}
-        mb={[25, 10]}
-        h={[400, 175]} w={[300, 1300]} 
+        ml={[25, 125]}
+        mb={[30, 10]}
+        h={[500, 175]} w={[300, 1300]} 
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
         gap={[10]}
         justifyItems='flex-start'>
