@@ -15,7 +15,7 @@ export default function Home() {
       <Heading mt={20} ml={[150, 175]} mb={10}>Organizations</Heading>
       <center>
         <Grid
-        ml={[115, 125]}
+        ml={[100, 125]}
         mb={[10]}
         h={[400, 175]} w={[400, 1300]} 
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
@@ -71,8 +71,8 @@ export default function Home() {
       <Heading mt={[20, 40]} ml={[150, 175]} mb={[10]}>Projects</Heading>
       <center>
         <Grid
-        ml={[115, 125]}
-        mb={[10]}
+        ml={[100, 125]}
+        mb={[20, 10]}
         h={[400, 175]} w={[400, 1300]} 
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
         gap={[10]}
