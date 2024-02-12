@@ -12,7 +12,7 @@ export default function Home() {
     animate={{ opacity: 100 }}>
       <Navbar/>
 
-      <Heading mt={20} ml={[150, 175]} mb={10}>Organizations</Heading>
+      <Heading mt={20} ml={[125, 175]} mb={10}>Organizations</Heading>
       <center>
         <Grid
         ml={[75, 125]}
@@ -68,7 +68,7 @@ export default function Home() {
         </Grid>
       </center>
 
-      <Heading mt={[20, 40]} ml={[150, 175]} mb={[10]}>Projects</Heading>
+      <Heading mt={[20, 40]} ml={[125, 175]} mb={[10]}>Projects</Heading>
       <center>
         <Grid
         ml={[75, 125]}
