@@ -73,7 +73,7 @@ export default function Home() {
         <Grid
         ml={[15, 125]}
         mb={[20, 10]}
-        h={[500, 175]} w={[300, 1300]} 
+        h={[600, 175]} w={[300, 1300]} 
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
         gap={[10]}
         justifyItems='flex-start'>
@@ -93,7 +93,7 @@ export default function Home() {
             <Tooltip label='Hackathon Project' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
               <Heading size='md'>DeltaHacks</Heading>
             </Tooltip>
-              <Link as="a" target="_blank" href="https://www.tone.lol/" aria-label="Tone" color='gray.500'>Tone</Link>
+              <Link as="a" target="_blank" href="https://devpost.com/software/tone-cvqjmf" aria-label="Tone" color='gray.500'>Tone</Link>
             </Stack>
           </Center>
 
