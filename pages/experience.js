@@ -77,6 +77,15 @@ export default function Home() {
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
         gap={[10]}
         justifyItems='flex-start'>
+          <Center rowSpan={1} colSpan={1} gap={5}>
+            <img width='100px' height='100px' src='leaf.jpg'/>
+            <Stack spacing={1} direction='column' align='start'>
+            <Tooltip label='Hackathon Project' placement='top-start' bg='whiteAlpha' textColor='black' closeOnClick={false}>
+              <Heading size='md'>DeerHacks</Heading>
+            </Tooltip>
+              <Link as="a" target="_blank" href="https://devpost.com/software/eco-3c258d" aria-label="Tone" color='gray.500'>Eco</Link>
+            </Stack>
+          </Center>
           
           <Center rowSpan={1} colSpan={1} gap={5}>
             <img width='100px' height='100px' src='tone3.png'/>
