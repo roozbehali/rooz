@@ -17,7 +17,7 @@ export default function Home() {
         <Grid
         ml={[15, 125]}
         mb={[10]}
-        h={[400, 175]} w={[300, 1300]} 
+        h={[450, 175]} w={[300, 1300]} 
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
         gap={[10]}
         justifyItems='flex-start'>
@@ -73,7 +73,7 @@ export default function Home() {
         <Grid
         ml={[15, 125]}
         mb={[20, 10]}
-        h={[600, 175]} w={[300, 1300]} 
+        h={[650, 175]} w={[300, 1300]} 
         templateColumns={['repeat(1, 1fr)', 'repeat(2, 1fr)', 'repeat(3, 1fr)']}
         gap={[10]}
         justifyItems='flex-start'>
