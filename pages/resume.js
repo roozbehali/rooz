@@ -13,7 +13,7 @@ export default function Home() {
       <center>
         <Navbar/>
         <Center marginTop={75}>
-          <iframe src="Roozbeh_Ali_Resume.pdf" title='resume' width={[450]} height={[625]}>
+          <iframe src="Roozbeh_Ali_Resume.pdf" title='resume' width={[450, 250]} height={[625, 347]}>
             {/* <Text my={[150, 210]}>Your web browser does not support a PDF plugin. Instead, You can view the file&nbsp; */}
               {/* <Link href="https://drive.google.com/file/d/14e1IR6cuwTlcRdxmpU6uRO8FobJ-rhkj/view?usp=sharing" isExternal color={'gray.400'}>here</Link>. */}
             {/* </Text> */}
