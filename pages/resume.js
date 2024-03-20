@@ -1,4 +1,4 @@
-import { Center } from '@chakra-ui/react'
+import { Center, Text, Link } from '@chakra-ui/react'
 import { motion } from "framer-motion"
 
 import { Navbar } from '@/components/navbar'
@@ -13,7 +13,11 @@ export default function Home() {
       <center>
         <Navbar/>
         <Center marginTop={75}>
-          <embed src="Roozbeh_Ali_Resume.pdf" width={[450]} height={[625]} />
+          {/* <iframe src="Roozbeh_Ali_Resume.pdf" title='resume' width={[450]} height={[625]}> */}
+            <Text my={210}>Your web browser does not support a PDF plugin. Instead, You can view the file&nbsp;
+              <Link href="https://drive.google.com/file/d/14e1IR6cuwTlcRdxmpU6uRO8FobJ-rhkj/view?usp=sharing" isExternal color={'gray.400'}>here</Link>.
+            </Text>
+          {/* </iframe> */}
         </Center>
         <Footer/>
       </center>
